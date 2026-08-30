@@ -9,16 +9,18 @@ import java.util.List;
 public class Screen {
     private String id;
     private String name;
-    private List<Seat> seatList;
+    private Cinema cinema;
+    private List<Seat> seats;
 
-    public Screen(String id, String name) {
+    public Screen(String id, String name, Cinema cinema) {
         this.id = id;
         this.name = name;
-        seatList = new ArrayList<>();
+        this.cinema = cinema;
+        seats = new ArrayList<>();
     }
 
     public void addSeat(Seat seat) {
-        seatList.add(seat);
+        seats.add(seat);
     }
 
 }

@@ -30,4 +30,7 @@ public class Payment {
         this.status = status;
         this.updatedAt = new Date();
     }
+
+
+
 }

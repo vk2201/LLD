@@ -3,9 +3,11 @@ package advanced.lld.models;
 import advanced.lld.enums.SeatType;
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
 @Getter
 @Setter
+@ToString
 public class Seat {
     private final String id;
     private final int row;
