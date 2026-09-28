@@ -1,0 +1,2 @@
+// move individual timing to -> timing object
+// enrich trafficSystem . so that particular intersection can be starrted using that
