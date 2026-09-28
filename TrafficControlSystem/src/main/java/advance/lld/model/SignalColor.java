@@ -1,4 +1,7 @@
 package advance.lld.model;
 
-public class SignalColor {
+public enum SignalColor {
+    GREEN,
+    YEllOW,
+    RED;
 }
