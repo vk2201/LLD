@@ -7,7 +7,7 @@ Every project has a `FLOW.md` with Mermaid diagrams that GitHub renders automati
 | ATM | [ATM/FLOW.md](ATM/FLOW.md) | State, Strategy (cash dispense) |
 | Movie Booking | [moiveBookingSystem/FLOW.md](moiveBookingSystem/FLOW.md) | Strategy (pricing, payment), seat locking |
 | Restaurant Management | [restaurantManagementSystem/FLOW.md](restaurantManagementSystem/FLOW.md) | Decorator, Observer, Strategy |
-| Traffic Control *(WIP)* | [TrafficControlSystem/FLOW.md](TrafficControlSystem/FLOW.md) | State, Strategy |
+| Traffic Control | [TrafficControlSystem/FLOW.md](TrafficControlSystem/FLOW.md) | State, Strategy, Scheduler (tick-based) |
 
 ## Patterns at a glance
 
